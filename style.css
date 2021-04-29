@@ -95,6 +95,15 @@ main {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .controls {
+    top: calc(1440px * 0.6 * 0.84);
+    left: unset;
+    right: 40vw;
+    transform: translate(50%, -50%);
+  }
+}
+
 .btn {
   font-size: 10px;
   width: 5em;
